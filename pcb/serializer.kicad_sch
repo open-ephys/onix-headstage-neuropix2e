@@ -663,7 +663,7 @@
   (junction (at 196.85 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 5e35f656-b945-483c-b654-a7cb81738083)
   )
-  (junction (at 91.44 125.73) (diameter 0) (color 0 0 0 0)
+  (junction (at 57.15 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 5f32c2b8-29f3-42a9-9630-417780144037)
   )
   (junction (at 104.14 101.6) (diameter 0) (color 0 0 0 0)
@@ -810,7 +810,7 @@
     (stroke (width 0) (type default))
     (uuid 298c9886-b18d-41d4-adb8-73cccfb62c9c)
   )
-  (wire (pts (xy 58.42 104.14) (xy 55.88 104.14))
+  (wire (pts (xy 77.47 104.14) (xy 74.93 104.14))
     (stroke (width 0) (type default))
     (uuid 2ab305f0-990a-4d93-bf44-f3fe4b038b8b)
   )
@@ -847,10 +847,6 @@
     (stroke (width 0) (type default))
     (uuid 34f7f725-ae20-4cc7-a735-62faf0603d99)
   )
-  (wire (pts (xy 91.44 125.73) (xy 120.65 125.73))
-    (stroke (width 0) (type default))
-    (uuid 34f8cb78-3d71-4bc3-8a87-ef0b4cf799b7)
-  )
   (wire (pts (xy 190.5 90.17) (xy 196.85 90.17))
     (stroke (width 0) (type default))
     (uuid 3a590844-fa1f-4b1c-8e61-44d5f7c7a501)
@@ -859,7 +855,7 @@
     (stroke (width 0) (type default))
     (uuid 3e22fef2-f990-40db-b2f9-325ecabcfe52)
   )
-  (wire (pts (xy 91.44 125.73) (xy 91.44 130.81))
+  (wire (pts (xy 57.15 125.73) (xy 57.15 130.81))
     (stroke (width 0) (type default))
     (uuid 4133a42f-1217-4d7e-b4d6-eb4df5d9ab49)
   )
@@ -879,7 +875,11 @@
     (stroke (width 0) (type default))
     (uuid 4ebc1e6a-de01-4df0-96a1-f6a24947ab2e)
   )
-  (wire (pts (xy 80.01 95.25) (xy 80.01 107.95))
+  (wire (pts (xy 57.15 125.73) (xy 120.65 125.73))
+    (stroke (width 0) (type default))
+    (uuid 4ef15c56-aa2e-4a97-bfa2-bc8b34ea4ddb)
+  )
+  (wire (pts (xy 66.04 99.06) (xy 66.04 109.22))
     (stroke (width 0) (type default))
     (uuid 4f1517bb-004c-4488-bc8a-1a9fad1e379b)
   )
@@ -903,7 +903,7 @@
     (stroke (width 0) (type default))
     (uuid 5f6e72e6-e852-49f8-aa8a-2eeb0e333db9)
   )
-  (wire (pts (xy 55.88 104.14) (xy 55.88 95.25))
+  (wire (pts (xy 74.93 104.14) (xy 74.93 99.06))
     (stroke (width 0) (type default))
     (uuid 602400be-b525-4629-985c-5a255f19bbe4)
   )
@@ -914,6 +914,10 @@
   (wire (pts (xy 201.93 124.46) (xy 222.25 124.46))
     (stroke (width 0) (type default))
     (uuid 644f3b0c-1e20-4000-b4e9-261c4a166377)
+  )
+  (wire (pts (xy 66.04 121.92) (xy 120.65 121.92))
+    (stroke (width 0) (type default))
+    (uuid 66092503-110a-4d87-91e3-027d1ec47506)
   )
   (wire (pts (xy 240.03 76.2) (xy 248.92 76.2))
     (stroke (width 0) (type default))
@@ -940,7 +944,7 @@
     (stroke (width 0) (type default))
     (uuid 7791a45d-1199-4500-acce-fbd039a2c19a)
   )
-  (wire (pts (xy 76.2 104.14) (xy 120.65 104.14))
+  (wire (pts (xy 95.25 104.14) (xy 120.65 104.14))
     (stroke (width 0) (type default))
     (uuid 79621f16-2393-4cdc-acae-48f00e7470a9)
   )
@@ -953,7 +957,7 @@
     (stroke (width 0) (type default))
     (uuid 7bcd0f08-ca4c-46b0-93e3-1c3cf431debf)
   )
-  (wire (pts (xy 68.58 104.14) (xy 66.04 104.14))
+  (wire (pts (xy 87.63 104.14) (xy 85.09 104.14))
     (stroke (width 0) (type default))
     (uuid 885b2d14-eca3-4c72-802a-1345a8b22327)
   )
@@ -965,7 +969,7 @@
     (stroke (width 0) (type default))
     (uuid 8a0d04f7-59c8-411c-95c8-dfb73c5f8546)
   )
-  (wire (pts (xy 80.01 115.57) (xy 80.01 121.92))
+  (wire (pts (xy 66.04 116.84) (xy 66.04 121.92))
     (stroke (width 0) (type default))
     (uuid 8b65043c-121d-410d-aecf-cd11c39cd3b8)
   )
@@ -994,11 +998,11 @@
     (stroke (width 0) (type default))
     (uuid a6a0ad78-05ff-45a0-8e70-0032ec3ae35b)
   )
-  (wire (pts (xy 91.44 115.57) (xy 91.44 125.73))
+  (wire (pts (xy 57.15 115.57) (xy 57.15 125.73))
     (stroke (width 0) (type default))
     (uuid ad508f61-3a23-4e6d-a5b5-176a82b957d3)
   )
-  (wire (pts (xy 91.44 95.25) (xy 91.44 107.95))
+  (wire (pts (xy 57.15 99.06) (xy 57.15 107.95))
     (stroke (width 0) (type default))
     (uuid aff7be05-9df1-41ec-a4af-a6ba48052455)
   )
@@ -1057,10 +1061,6 @@
     (uuid e17f8acd-b7dc-442f-a2e6-d7dc40af24aa)
   )
 
-  (wire (pts (xy 120.65 121.92) (xy 80.01 121.92))
-    (stroke (width 0) (type default))
-    (uuid e69861a1-7949-44a9-b534-3063f5d745a7)
-  )
   (wire (pts (xy 111.76 147.32) (xy 111.76 140.97))
     (stroke (width 0) (type default))
     (uuid e8330e19-40b3-4b6e-8d30-be03393e1083)
@@ -1077,7 +1077,7 @@
     (stroke (width 0) (type default))
     (uuid f4fea35a-b900-4aff-aa3a-02c12ddbade7)
   )
-  (wire (pts (xy 91.44 138.43) (xy 91.44 147.32))
+  (wire (pts (xy 57.15 138.43) (xy 57.15 147.32))
     (stroke (width 0) (type default))
     (uuid f5c17766-67c8-48fe-9991-487c53ad7928)
   )
@@ -1093,6 +1093,10 @@
   (label "D2" (at 120.65 53.34 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0bba29cc-a47c-43d0-97d6-10562b6f2d17)
+  )
+  (label "Dout-" (at 212.09 132.08 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 19964789-1916-4eff-9b26-05617cd19385)
   )
   (label "SYNC" (at 64.77 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1151,7 +1155,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ef2effb7-9142-40cf-a270-bb8be2e8ab4b)
   )
-  (hierarchical_label "DOut" (shape output) (at 222.25 124.46 0) (fields_autoplaced)
+  (hierarchical_label "DOut+" (shape output) (at 222.25 124.46 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f5aba292-9ed6-49c1-9d2c-94e3bc4aa943)
   )
@@ -1159,7 +1163,7 @@
   (symbol (lib_id "Device:C") (at 196.85 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0172cc05-42aa-4a7d-b2bf-3edc490fb6ed)
-    (property "Reference" "C9" (at 199.39 64.77 0)
+    (property "Reference" "C8" (at 199.39 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 199.39 67.31 0)
@@ -1182,7 +1186,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1191,7 +1195,7 @@
   (symbol (lib_id "power:GND") (at 207.01 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c46ecf9-8d3b-4ec6-9396-606aca3ae882)
-    (property "Reference" "#PWR030" (at 207.01 104.14 0)
+    (property "Reference" "#PWR028" (at 207.01 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 101.6 0)
@@ -1207,7 +1211,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1216,7 +1220,7 @@
   (symbol (lib_id "power:GND") (at 207.01 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e861675-bc8a-4054-9fc7-fef517590653)
-    (property "Reference" "#PWR022" (at 207.01 76.2 0)
+    (property "Reference" "#PWR023" (at 207.01 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 73.66 0)
@@ -1232,25 +1236,25 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 91.44 111.76 0) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 57.15 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 210c0826-669e-40cc-bdc3-b0c382d98d4f)
-    (property "Reference" "R8" (at 93.98 110.49 0)
+    (property "Reference" "R5" (at 54.61 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 93.98 113.03 0)
+    (property "Value" "10k" (at 54.61 113.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 92.456 112.014 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 56.134 112.014 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 91.44 111.76 0)
+    (property "Datasheet" "~" (at 57.15 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1998e144-da87-4bcc-a5f6-cf8b7f5739fb))
@@ -1258,7 +1262,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "R8") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1267,7 +1271,7 @@
   (symbol (lib_id "Device:C") (at 217.17 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 232455ba-575a-4371-8574-a5b8e6fe0a04)
-    (property "Reference" "C16" (at 219.71 92.71 0)
+    (property "Reference" "C15" (at 219.71 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 219.71 95.25 0)
@@ -1290,7 +1294,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C16") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1299,7 +1303,7 @@
   (symbol (lib_id "power:GND") (at 207.01 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23f2e979-20fd-49b0-9da3-4a6c7bfcc663)
-    (property "Reference" "#PWR024" (at 207.01 90.17 0)
+    (property "Reference" "#PWR025" (at 207.01 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 87.63 0)
@@ -1315,25 +1319,25 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 72.39 104.14 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 91.44 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27aa362d-6eca-4746-bc65-f90002178f47)
-    (property "Reference" "R5" (at 71.12 102.87 0)
+    (property "Reference" "R3" (at 90.17 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (at 73.66 102.87 0)
+    (property "Value" "1k" (at 92.71 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 72.644 103.124 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 91.694 103.124 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 72.39 104.14 0)
+    (property "Datasheet" "~" (at 91.44 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4d7e0cfc-d68e-4a6c-9f13-0acfb1a1f74d))
@@ -1341,7 +1345,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1350,7 +1354,7 @@
   (symbol (lib_id "Device:C") (at 217.17 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29055b07-8f80-4815-8fa1-35d17af2f417)
-    (property "Reference" "C19" (at 219.71 106.68 0)
+    (property "Reference" "C18" (at 219.71 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 219.71 109.22 0)
@@ -1373,7 +1377,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C19") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1382,7 +1386,7 @@
   (symbol (lib_id "Device:R_US") (at 217.17 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c825a70-fe25-4a67-a311-d05ebe26ad6f)
-    (property "Reference" "R10" (at 219.71 135.89 0)
+    (property "Reference" "R7" (at 219.71 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "49.9" (at 219.71 138.43 0)
@@ -1399,7 +1403,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1408,7 +1412,7 @@
   (symbol (lib_id "Device:C") (at 207.01 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 341f16bc-7b51-4476-8882-01e8230518f7)
-    (property "Reference" "C18" (at 209.55 106.68 0)
+    (property "Reference" "C17" (at 209.55 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.55 109.22 0)
@@ -1431,7 +1435,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C18") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1440,7 +1444,7 @@
   (symbol (lib_id "power:GND") (at 217.17 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 39db0b0d-fdde-45e7-bf59-52cfb2aecc7f)
-    (property "Reference" "#PWR034" (at 217.17 118.11 0)
+    (property "Reference" "#PWR035" (at 217.17 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 115.57 0)
@@ -1456,25 +1460,25 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 91.44 147.32 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 57.15 147.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 417cdb30-0a99-481d-82d0-1df8730aab41)
-    (property "Reference" "#PWR036" (at 91.44 153.67 0)
+    (property "Reference" "#PWR036" (at 57.15 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 91.44 151.13 0)
+    (property "Value" "GND" (at 57.15 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 91.44 147.32 0)
+    (property "Footprint" "" (at 57.15 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 91.44 147.32 0)
+    (property "Datasheet" "" (at 57.15 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 093d17fc-8558-4edf-a878-1f70a2b4b274))
@@ -1490,7 +1494,7 @@
   (symbol (lib_id "power:GND") (at 217.17 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4819962d-262f-4597-baa9-45d33796d188)
-    (property "Reference" "#PWR025" (at 217.17 90.17 0)
+    (property "Reference" "#PWR026" (at 217.17 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 87.63 0)
@@ -1506,7 +1510,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1515,7 +1519,7 @@
   (symbol (lib_id "power:GND") (at 207.01 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 492a1fa8-080a-4894-be04-e8e2df810b60)
-    (property "Reference" "#PWR020" (at 207.01 62.23 0)
+    (property "Reference" "#PWR021" (at 207.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 59.69 0)
@@ -1531,31 +1535,31 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 91.44 134.62 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 57.15 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e3652ac-df3c-485b-a01b-4b64e1180907)
-    (property "Reference" "C22" (at 93.98 133.35 0)
+    (property "Reference" "C21" (at 54.61 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1uF" (at 93.98 135.89 0)
+    (property "Value" "1uF" (at 54.61 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 92.4052 138.43 0)
+    (property "Footprint" "Capacitor_SMD:C_0201_0603Metric" (at 56.1848 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 91.44 134.62 0)
+    (property "Datasheet" "~" (at 57.15 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "TempCo" "X5R" (at 91.44 134.62 0)
+    (property "TempCo" "X5R" (at 57.15 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Voltage" "10V" (at 91.44 134.62 0)
+    (property "Voltage" "10V" (at 57.15 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5fedc69e-4dc6-4df9-85ef-ceafb0a8d798))
@@ -1563,7 +1567,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C22") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1602,7 +1606,7 @@
   (symbol (lib_id "power:GND") (at 196.85 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59345a7d-cc5d-4b2f-abd3-ea6c381fe76e)
-    (property "Reference" "#PWR029" (at 196.85 104.14 0)
+    (property "Reference" "#PWR027" (at 196.85 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 101.6 0)
@@ -1618,7 +1622,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -1627,7 +1631,7 @@
   (symbol (lib_id "Device:C") (at 196.85 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f680554-b3ed-4364-b672-4af961a40129)
-    (property "Reference" "C14" (at 199.39 92.71 0)
+    (property "Reference" "C13" (at 199.39 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 199.39 95.25 0)
@@ -1650,7 +1654,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1681,26 +1685,26 @@
     )
   )
 
-  (symbol (lib_id "power:+1V8") (at 55.88 95.25 0) (unit 1)
+  (symbol (lib_id "power:+1V8") (at 74.93 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6babae92-7047-4a7e-81db-402ada5be62c)
-    (property "Reference" "#PWR026" (at 55.88 99.06 0)
+    (property "Reference" "#PWR032" (at 74.93 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1V8" (at 55.88 91.44 0)
+    (property "Value" "+1V8" (at 74.93 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 55.88 95.25 0)
+    (property "Footprint" "" (at 74.93 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 55.88 95.25 0)
+    (property "Datasheet" "" (at 74.93 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6b4ef9d9-3824-4fe4-9856-c026c03a6dea))
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1805,19 +1809,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 80.01 111.76 0) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 66.04 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dfeaf2a-40c1-45ff-a17e-a86a28bea9c0)
-    (property "Reference" "R7" (at 82.55 110.49 0)
+    (property "Reference" "R6" (at 68.58 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 82.55 113.03 0)
+    (property "Value" "10k" (at 68.58 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 81.026 112.014 90)
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 67.056 113.284 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 80.01 111.76 0)
+    (property "Datasheet" "~" (at 66.04 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c8e41165-2b89-4ac3-9d48-33027bfe54ac))
@@ -1825,25 +1829,25 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 62.23 104.14 0) (mirror y) (unit 1)
+  (symbol (lib_id "Device:LED") (at 81.28 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76c182b9-21d9-45ff-8d9b-7b8c7a89ad78)
-    (property "Reference" "D1" (at 62.23 107.95 0)
+    (property "Reference" "D1" (at 81.28 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SML-P11UTT86R" (at 62.23 111.76 0)
+    (property "Value" "SML-P11UTT86R" (at 81.28 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "jonnew:ROHM_SML-P11MTT86R" (at 62.23 104.14 0)
+    (property "Footprint" "jonnew:ROHM_SML-P11MTT86R" (at 81.28 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 62.23 104.14 0)
+    (property "Datasheet" "~" (at 81.28 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df677f60-7fed-4c63-b0b5-e3341a275a01))
@@ -1860,7 +1864,7 @@
   (symbol (lib_id "Device:C") (at 196.85 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 770dd459-1b5e-4190-9214-2f9a5c614c96)
-    (property "Reference" "C17" (at 199.39 106.68 0)
+    (property "Reference" "C16" (at 199.39 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 199.39 109.22 0)
@@ -1883,7 +1887,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C17") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1923,7 +1927,7 @@
   (symbol (lib_id "power:GND") (at 196.85 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d53adb5-631d-41d8-a048-543132e8c180)
-    (property "Reference" "#PWR032" (at 196.85 118.11 0)
+    (property "Reference" "#PWR033" (at 196.85 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 115.57 0)
@@ -1939,7 +1943,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1948,7 +1952,7 @@
   (symbol (lib_id "Device:C") (at 207.01 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8024c86d-f232-4667-bf08-18e7ffad9af4)
-    (property "Reference" "C10" (at 209.55 64.77 0)
+    (property "Reference" "C9" (at 209.55 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.55 67.31 0)
@@ -1971,7 +1975,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C10") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1980,7 +1984,7 @@
   (symbol (lib_id "power:+1V8") (at 248.92 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 803d2645-3e14-4459-af58-c825e760eb24)
-    (property "Reference" "#PWR018" (at 248.92 46.99 0)
+    (property "Reference" "#PWR019" (at 248.92 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 248.92 39.37 0)
@@ -1996,7 +2000,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2005,7 +2009,7 @@
   (symbol (lib_id "Device:C") (at 198.12 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81759ba9-c210-452d-b9e5-b47dec81ebe8)
-    (property "Reference" "C21" (at 204.47 128.27 90)
+    (property "Reference" "C20" (at 204.47 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47nF" (at 205.74 130.81 90)
@@ -2028,7 +2032,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C21") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2037,7 +2041,7 @@
   (symbol (lib_id "power:GND") (at 196.85 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81efcc82-2d29-4bb9-9e05-e7eeb7592a4e)
-    (property "Reference" "#PWR021" (at 196.85 76.2 0)
+    (property "Reference" "#PWR022" (at 196.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 73.66 0)
@@ -2053,7 +2057,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2062,7 +2066,7 @@
   (symbol (lib_id "Device:C") (at 198.12 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83453f96-d5f7-4ea7-906c-f4154d8aa96c)
-    (property "Reference" "C20" (at 204.47 120.65 90)
+    (property "Reference" "C19" (at 204.47 120.65 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 205.74 123.19 90)
@@ -2085,7 +2089,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C20") (unit 1)
+          (reference "C19") (unit 1)
         )
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6"
           (reference "C1") (unit 1)
@@ -2097,7 +2101,7 @@
   (symbol (lib_id "Device:R_US") (at 104.14 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84c884b0-31fd-4a7a-8715-6bf4a2f15632)
-    (property "Reference" "R6" (at 106.68 109.22 0)
+    (property "Reference" "R4" (at 106.68 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 106.68 111.76 0)
@@ -2114,7 +2118,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2123,7 +2127,7 @@
   (symbol (lib_id "Device:C") (at 196.85 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 870312b3-c5f7-47f9-bdcb-2e3db229e286)
-    (property "Reference" "C7" (at 199.39 50.8 0)
+    (property "Reference" "C6" (at 199.39 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 199.39 53.34 0)
@@ -2146,7 +2150,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2186,7 +2190,7 @@
   (symbol (lib_id "power:GND") (at 196.85 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 977bb41a-12d7-450e-8f18-8f678918a685)
-    (property "Reference" "#PWR023" (at 196.85 90.17 0)
+    (property "Reference" "#PWR024" (at 196.85 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 87.63 0)
@@ -2202,7 +2206,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2211,7 +2215,7 @@
   (symbol (lib_id "Device:C") (at 207.01 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0eba435-91ea-42d0-8e42-a342e883e437)
-    (property "Reference" "C15" (at 209.55 92.71 0)
+    (property "Reference" "C14" (at 209.55 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.55 95.25 0)
@@ -2234,7 +2238,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2243,7 +2247,7 @@
   (symbol (lib_id "Device:C") (at 207.01 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7c3c9e6-919d-44d2-b6c6-e4fb47994693)
-    (property "Reference" "C12" (at 209.55 78.74 0)
+    (property "Reference" "C11" (at 209.55 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.55 81.28 0)
@@ -2266,32 +2270,32 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+1V8") (at 91.44 95.25 0) (unit 1)
+  (symbol (lib_id "power:+1V8") (at 57.15 99.06 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid add9438c-24a8-45d3-9b31-8252b3e16cc6)
-    (property "Reference" "#PWR028" (at 91.44 99.06 0)
+    (property "Reference" "#PWR030" (at 57.15 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1V8" (at 91.44 91.44 0)
+    (property "Value" "+1V8" (at 57.15 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 91.44 95.25 0)
+    (property "Footprint" "" (at 57.15 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 91.44 95.25 0)
+    (property "Datasheet" "" (at 57.15 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6d15354e-871b-476f-9607-3888a512e4b1))
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -2300,7 +2304,7 @@
   (symbol (lib_id "power:GND") (at 217.17 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd7d972d-8b0c-4600-b2e5-094f8ff01c03)
-    (property "Reference" "#PWR031" (at 217.17 104.14 0)
+    (property "Reference" "#PWR029" (at 217.17 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 101.6 0)
@@ -2316,7 +2320,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2325,7 +2329,7 @@
   (symbol (lib_id "power:GND") (at 196.85 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be93327d-fe00-4a17-a6cd-2e508843754a)
-    (property "Reference" "#PWR019" (at 196.85 62.23 0)
+    (property "Reference" "#PWR020" (at 196.85 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 59.69 0)
@@ -2341,7 +2345,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2400,7 +2404,7 @@
   (symbol (lib_id "Device:C") (at 196.85 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d69ae395-ef0c-4a41-83e8-454671514494)
-    (property "Reference" "C11" (at 199.39 78.74 0)
+    (property "Reference" "C10" (at 199.39 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 199.39 81.28 0)
@@ -2423,7 +2427,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C11") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2432,7 +2436,7 @@
   (symbol (lib_id "Device:C") (at 207.01 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2ea5c5d-d794-4476-8f61-f7a44694fe11)
-    (property "Reference" "C8" (at 209.55 50.8 0)
+    (property "Reference" "C7" (at 209.55 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 209.55 53.34 0)
@@ -2455,32 +2459,32 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:+1V8") (at 80.01 95.25 0) (unit 1)
+  (symbol (lib_id "power:+1V8") (at 66.04 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef27fbc9-efe2-420c-82a6-31d5eb6bb442)
-    (property "Reference" "#PWR027" (at 80.01 99.06 0)
+    (property "Reference" "#PWR031" (at 66.04 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1V8" (at 80.01 91.44 0)
+    (property "Value" "+1V8" (at 66.04 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 80.01 95.25 0)
+    (property "Footprint" "" (at 66.04 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 80.01 95.25 0)
+    (property "Datasheet" "" (at 66.04 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c5e74ee-d78e-4512-a9cd-23565a2e259a))
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2489,7 +2493,7 @@
   (symbol (lib_id "power:GND") (at 207.01 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f2959d22-e99d-428f-9cdc-9e09a2279ced)
-    (property "Reference" "#PWR033" (at 207.01 118.11 0)
+    (property "Reference" "#PWR034" (at 207.01 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.01 115.57 0)
@@ -2505,7 +2509,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2544,7 +2548,7 @@
   (symbol (lib_id "Device:C") (at 217.17 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff14a817-4da8-43ef-a6e4-21fb5c75e0ad)
-    (property "Reference" "C13" (at 219.71 78.74 0)
+    (property "Reference" "C12" (at 219.71 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 219.71 81.28 0)
@@ -2567,7 +2571,7 @@
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )

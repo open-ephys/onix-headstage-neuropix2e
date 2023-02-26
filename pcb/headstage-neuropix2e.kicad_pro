@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.75,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 2.0,
+          "height": 1.4,
+          "width": 2.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|140905000|91960000|3807e9a8-dbef-4fd6-b69e-e3018063f549|362bb9c2-67af-43b9-9941-e8c4cb44a1f6",
+        "clearance|140905000|92160000|21caa6a6-16af-4365-bf1a-1c159e7d54d3|362bb9c2-67af-43b9-9941-e8c4cb44a1f6",
+        "lib_footprint_issues|143525000|84907143|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|145005911|111701246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|140905000|91960000|362bb9c2-67af-43b9-9941-e8c4cb44a1f6|3807e9a8-dbef-4fd6-b69e-e3018063f549",
+        "solder_mask_bridge|140905000|92160000|362bb9c2-67af-43b9-9941-e8c4cb44a1f6|21caa6a6-16af-4365-bf1a-1c159e7d54d3"
+      ],
       "meta": {
         "version": 2
       },
@@ -113,7 +120,7 @@
         "max_error": 0.005,
         "min_clearance": 0.07619999999999999,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.09999999999999999,
         "min_hole_clearance": 0.07619999999999999,
         "min_hole_to_hole": 0.09999999999999999,
         "min_microvia_diameter": 0.15,
@@ -176,6 +183,7 @@
         0.0762,
         0.1,
         0.15,
+        0.172,
         0.2,
         0.3,
         0.4,
@@ -413,7 +421,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -464,39 +472,22 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.172,
         "via_diameter": 0.25,
-        "via_drill": 0.15,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.082,
-        "diff_pair_gap": 0.082,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.131,
-        "line_style": 0,
-        "microvia_diameter": 0.2,
-        "microvia_drill": 0.1,
-        "name": "CSI-2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.131,
-        "via_diameter": 0.2,
         "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.1778,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.09525,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
-        "name": "L3-Diff-Strip",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.2,
         "via_diameter": 0.2,
         "via_drill": 0.1,
         "wire_width": 6
@@ -504,9 +495,9 @@
       {
         "bus_width": 12,
         "clearance": 0.0762,
-        "diff_pair_gap": 0.0762,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.0762,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
@@ -526,116 +517,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "50-Ohm",
-        "pattern": "/DC Tap & Regulation/RF+DC"
-      },
-      {
-        "netclass": "50-Ohm",
-        "pattern": "Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "50-Ohm",
-        "pattern": "Net-(C13-Pad1)"
-      },
-      {
-        "netclass": "50-Ohm",
-        "pattern": "Net-(C13-Pad2)"
-      },
-      {
-        "netclass": "L3-Diff-Strip",
-        "pattern": "/FPGA/CLK+"
-      },
-      {
-        "netclass": "L3-Diff-Strip",
-        "pattern": "/FPGA/CLK-"
-      },
-      {
-        "netclass": "L3-Diff-Strip",
-        "pattern": "/FPGA/D0+"
-      },
-      {
-        "netclass": "L3-Diff-Strip",
-        "pattern": "/FPGA/D0-"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/3D Pose/PD_{0}+"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/3D Pose/PD_{0}-"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/3D Pose/PD_{1}+"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/3D Pose/PD_{1}-"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec0"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec1"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec10"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec11"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec12"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec13"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec14"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec15"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec2"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec3"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec4"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec5"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec6"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec7"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec8"
-      },
-      {
-        "netclass": "Tight",
-        "pattern": "/Ephys/Elec9"
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
