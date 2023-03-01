@@ -14,7 +14,7 @@
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
-          "arrow_length": 1270000,
+          "arrow_length": 500000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
           "suppress_zeroes": false,
@@ -56,12 +56,9 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|140905000|91960000|3807e9a8-dbef-4fd6-b69e-e3018063f549|362bb9c2-67af-43b9-9941-e8c4cb44a1f6",
-        "clearance|140905000|92160000|21caa6a6-16af-4365-bf1a-1c159e7d54d3|362bb9c2-67af-43b9-9941-e8c4cb44a1f6",
-        "lib_footprint_issues|143525000|84907143|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|145005911|111701246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
-        "solder_mask_bridge|140905000|91960000|362bb9c2-67af-43b9-9941-e8c4cb44a1f6|3807e9a8-dbef-4fd6-b69e-e3018063f549",
-        "solder_mask_bridge|140905000|92160000|362bb9c2-67af-43b9-9941-e8c4cb44a1f6|21caa6a6-16af-4365-bf1a-1c159e7d54d3"
+        "lib_footprint_issues|143042857|84360000|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|144705911|113331246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|145005911|111701246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
