@@ -1509,7 +1509,7 @@
     (property "Reference" "U6" (at 189.23 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CAT24Cxx" (at 189.23 52.07 0)
+    (property "Value" "CAT24C04C4ATR" (at 189.23 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "jonnew:ONSEMI_567JZ_WLCSP4-0.84x0.86" (at 189.23 58.42 0)

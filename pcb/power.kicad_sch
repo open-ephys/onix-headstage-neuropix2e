@@ -1029,7 +1029,7 @@
     (property "Reference" "L2" (at 207.01 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "CIG21L4R7MNE" (at 207.01 74.93 90)
+    (property "Value" "ASMPH-0805-4R7M-T" (at 210.82 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at 207.01 72.39 0)

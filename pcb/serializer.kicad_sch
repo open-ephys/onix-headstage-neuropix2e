@@ -1800,7 +1800,7 @@
     (property "Reference" "U3" (at 155.575 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DS90UB9x3" (at 155.575 43.18 0)
+    (property "Value" "DS90UB933TRTVTQ1" (at 155.575 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "jonnew:TI_RTV0032A" (at 127 38.1 0)

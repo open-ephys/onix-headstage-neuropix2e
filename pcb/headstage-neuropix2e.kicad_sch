@@ -423,7 +423,7 @@
     (property "Reference" "J1" (at 165.1 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "X.FL-R-SMT-1" (at 165.1 83.82 0)
+    (property "Value" "X.FL-R-SMT-1(02)" (at 165.1 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "jonnew:HIROSE_X.FL-R-SMT-1" (at 162.56 82.55 0)
