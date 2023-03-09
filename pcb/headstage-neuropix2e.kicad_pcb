@@ -1337,7 +1337,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99060902-f8fe-4c8a-9e8f-e4b8d21df511)
     )
-    (fp_text value "2013496-9" (at 0 3.5 unlocked) (layer "F.Fab") hide
+    (fp_text value "046844727002846+" (at 0 3.5 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd9c3a7c-983c-41e6-b22f-0f1d24dab551)
     )
@@ -4409,7 +4409,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 351c0c65-c4aa-4580-849d-6798240c02df)
     )
-    (fp_text value "2013496-9" (at 0 -3.5 unlocked) (layer "B.Fab") hide
+    (fp_text value "046844727002846+" (at 0 -3.5 unlocked) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 5d8a2b47-9630-4812-bb79-c8cca80d22cd)
     )
@@ -5152,7 +5152,7 @@
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 8b468c25-6d88-4fed-bed9-289310df499f)
     )
-    (fp_text value "KC2016Z48.0000C15XXK" (at 0 -2 180 unlocked) (layer "B.Fab") hide
+    (fp_text value "ECS-2016MV-480-CN-TR" (at 0 -2 180 unlocked) (layer "B.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp b8c79f2f-f523-4e68-8e4f-32ef1b0d6f67)
     )
