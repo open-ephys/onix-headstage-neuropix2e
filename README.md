@@ -1,6 +1,6 @@
 # ONIX Neuropixels 2.0 Headstage
 
-Serialized, multifunction ONIX headstage for Neuropixels 2.0 probes
+Serialized, multifunction ONIX headstage for IMEC Neuropixels-2.0 probes
 
 **Features**
 - 2x [Neuropixels 2.0](https://www.neuropixels.org/) probes per headstage
@@ -8,7 +8,3 @@ Serialized, multifunction ONIX headstage for Neuropixels 2.0 probes
 - Single, 0.3 mm diameter micro-coaxial tether
 - Torque-free commutation when used with an [ONIX Commutator](https://github.com/open-ephys/onix-commutator)
 - <TODO> grams
-
-**Variants**
-- `pcb-beta` : Headstage for the beta-test variant of the Neuropixels 2.0 probe
-- `pcb` : Headstage for publically available variants of the Neuropixels 2.0 probe
