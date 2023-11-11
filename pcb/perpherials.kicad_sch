@@ -1376,6 +1376,12 @@
     (pin "MP2" (uuid 4ab11ecb-8d3e-48c3-aec9-04f36508372f))
     (pin "MP3" (uuid f5b5f946-075c-4422-9087-6faf7e52a3ee))
     (pin "MP4" (uuid 716be5ae-f85d-496d-9ae4-6b6c4105dc52))
+    (property "MPN" "5050700622" (at 214.63 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Type" "SMD" (at 214.63 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "headstage-neuropix2e"
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd"
