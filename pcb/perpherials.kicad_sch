@@ -1340,7 +1340,7 @@
   )
 
   (symbol (lib_id "jonnew:Conn_02x3_Odd_Even_4Mech") (at 214.63 125.73 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f756bda-8741-4d97-a9b0-a351cf0e68a2)
     (property "Reference" "J6" (at 214.63 114.3 0)
       (effects (font (size 1.27 1.27)))
