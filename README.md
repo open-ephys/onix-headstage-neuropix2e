@@ -7,4 +7,4 @@ Serialized, multifunction ONIX headstage for IMEC Neuropixels-2.0 probes
 - Integrated absolute orientation tracking
 - Single, 0.3 mm diameter micro-coaxial tether
 - Torque-free commutation when used with an [ONIX Commutator](https://github.com/open-ephys/onix-commutator)
-- <TODO> grams
+- 0.64 grams
